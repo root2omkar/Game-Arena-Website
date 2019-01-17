@@ -1,5 +1,5 @@
-# om21github
-Game Arena Website
+# GameArenaWebsite
+
 
 Download any Java Script Code ediitor ( I used Atom editor )
 
