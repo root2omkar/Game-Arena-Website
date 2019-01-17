@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>www.swaparena.com</title>
+
+<link rel="stylesheet" Type="text/css" href="/../resources/Register.css">
+
+<script>
+
+document.createElement("nav");
+document.createElement("header");
+document.createElement("footer");
+document.createElement("section");
+
+</script>
+
+</head>
+
+<body>
+
+<header class= " banner ">
+
+<h1> GameArena <img src="/../resources/vg.jpg" alt="vg" >  </h1>
+
+</header>
+
+
+<% include partials/Menu.ejs %>
+
+
+
+
+
+
+
+<h2> <br><br><br> <br> <br> User Profile has been created !! </h2>
+
+<table id="UserInfo" >
+
+
+  <tr>
+    <th><label> FirstName </label></th>
+    <td><label><strong> </strong><%= theUser.firstName %></label></td>
+  </tr>
+
+  <tr>
+    <th><label> LastName </label></th>
+    <td><label><strong> </strong><%= theUser.lastName %></label></td>
+  </tr>
+
+  <tr>
+    <th><label> Email </label></th>
+    <td><label><strong> </strong><%= theUser.email %></label></td>
+  </tr>
+
+  <tr>
+    <th><label> Address </label></th>
+    <td><label><stdong> </stdong><%= theUser.address %></label></td>
+  </tr>
+
+  <tr>
+    <th><label> City </label></th>
+    <td><label><strong> </strong><%= theUser.city %></label></td>
+  </tr>
+
+  <tr>
+    <th><label> State </label></th>
+    <td><label><strong> </strong><%= theUser.state %></label></td>
+  </tr>
+
+  <tr>
+    <th><label> Country</label></th>
+    <td><label><strong> </strong><%= theUser.country %></label></td>
+  </tr>
+
+  <tr>
+    <th><label> Username </label></th>
+    <td><label><strong> </strong><%= theUser.username %></label></td>
+  </tr>
+
+  <tr>
+    <th><label> Password </label></th>
+    <td><label><strong> </strong><%= theUser.password %></label></td>
+  </tr>
+
+</table>
+
+
+<p><br><br> <button> <a href="Additems"> Add items to cart </a> </button> </p>
+
+
+<% include partials/Home.ejs %>
+
+<% include partials/footer.ejs %>
+
+
+</body>
+
+</html>

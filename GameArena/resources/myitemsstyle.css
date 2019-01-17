@@ -1,0 +1,132 @@
+ @charset "UTF-8";
+
+
+
+header, html, body, nav ,footer, p ,
+{
+	display:block;
+	padding:1px;
+	margin:5px;
+	left-side:5px;
+
+}
+
+
+li
+ {
+	 display:block;
+ }
+
+
+
+
+
+.banner
+{
+	background-color: gray;
+	color: white;
+	padding:0px;
+	font-size:23px;
+	border:thick solid gold;
+}
+
+body
+{
+
+	width:1460px;
+	background-color: black;
+	font-family:Arial;
+	font-size: 15px;
+	margin-left:15px;
+}
+
+.Menu ul li
+{
+	float: left;
+	width: 150px;
+	height:25px;
+	padding:10px;
+	background-color: gray;
+	list-style: none;
+	margin-left:150px;
+	margin-top:5px;
+	margin-bottom:5px;
+	font-size:17px;
+	text-align:center;
+	border:thick solid green;
+}
+
+
+
+.Info
+{
+
+	background-color: yellow;
+	background-size: 75px;
+	padding:0px;
+	margin-top:100px;
+	margin-bottom:2px;
+	border:thick solid red;
+	font-size:20px;
+	list-style: none;
+}
+
+
+section
+{
+
+	padding:10px;
+	background-color: black;
+	font-size:20px;
+	border:thick solid green;
+	margin-left:10px;
+	margin-right:80px;
+	margin-top:0px;
+	margin-bottom:0px;
+	color: thick solid yellow;
+}
+
+
+
+.home
+{
+	margin-top:100px;
+	background-color:gold;
+	padding:15px;
+	color: white;
+
+}
+
+table, th, td, tr
+{
+	border:2px solid white;
+	padding: 25px;
+	margin-left:150px;
+  margin-top: 50px;
+  color: white;
+}
+
+
+
+footer
+{
+
+	background-color: gray;
+	font-size: 15px;
+	margin-top: 300px;
+	margin-bottom:5px;
+	padding:0px;
+	border:thick solid orange;
+	color: black;
+}
+
+article
+{
+	margin-top:80px;
+	margin-bottom:20px;
+	text-top:10px;
+	background-color:gray;
+	font-size:15px;
+	text-align:center;
+	color:gold;
+}

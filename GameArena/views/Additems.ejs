@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>www.swaparena.com</title>
+
+<link rel="stylesheet" Type="text/css" href="/../resources/Register.css">
+
+<script>
+
+document.createElement("nav");
+document.createElement("header");
+document.createElement("footer");
+document.createElement("section");
+
+</script>
+
+</head>
+
+<body>
+
+<header class= " banner ">
+
+<h1> GameArena <img src="/../resources/vg.jpg" alt="vg" >  </h1>
+
+</header>
+
+
+<% include partials/Menu.ejs %>
+
+
+<h2> <br><br><br> <br> <br> Please Enter Item Details </h2>
+
+
+<form id="Contact Form" method="POST" action="/Cartitems">
+
+<p> <br><br><br><br> <label for="itemID">Item ID </label>
+<input type="text" name="itemID" value="<%= qs.itemID %>"> </p>
+
+<p><label for="itemName">Item Name</label>
+<input type="text" name="itemName" value="<%= qs.itemName %>"> </p>
+
+<p><label for="category">Category</label>
+<input type="text" name="category" value="<%= qs.category %>"> </p>
+
+<p><label for="rating">Rating</label>
+<input type="text" name="rating" value="<%= qs.rating %>"> </p>
+
+<p><label for="url">Image URL</label>
+<input type="text" name="url" value="<%= qs.url %>"> </p>
+
+<p> <br> <input type="submit" name="submit"/> </p>
+
+</form>
+
+<% include partials/Home.ejs %>
+
+<% include partials/footer.ejs %>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+ @charset "UTF-8";
+
+
+
+header, html, body, nav ,footer, p ,
+{
+	display:block;
+	padding:10px;
+	margin:5px;
+	left-side:5px;
+
+}
+
+
+li
+ {
+	 display:block;
+ }
+
+
+.banner
+{
+	background-color: gray;
+	color: white;
+	padding:0px;
+	font-size:23px;
+	border:thick solid gold;
+}
+
+body
+{
+
+	width:1460px;
+	background-color:black;
+	font-family:Arial;
+	font-size: 15px;
+	margin-left:15px;
+  color: white;
+}
+
+.Menu ul li
+{
+	float: left;
+	width: 150px;
+	height:25px;
+	padding:10px;
+	background-color: silver;
+	list-style: none;
+	margin-left:150px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:17px;
+	text-align:center;
+	border:thick solid green;
+}
+
+
+
+.Info
+{
+
+	background-color: yellow;
+	background-size: 75px;
+	padding:2px;
+	margin-top:90px;
+	margin-bottom:10px;
+	border:thick solid red;
+	font-size:20px;
+	list-style: none;
+	width:150px;
+}
+
+
+article
+{
+	margin-top:150px;
+	margin-bottom:10px;
+	background-color:gray;
+	font-size:30px;
+	text-align:center;
+	color:gold;
+	padding:10px;
+}
+
+footer
+{
+
+	background-color: gray;
+	font-size: 15px;
+	margin-top: 200px;
+	margin-bottom:10px;
+	padding:0px;
+	border:thick solid orange;
+}

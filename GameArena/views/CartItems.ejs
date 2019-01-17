@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>www.swaparena.com</title>
+
+<link rel="stylesheet" Type="text/css" href="/../resources/Register.css">
+
+<script>
+
+document.createElement("nav");
+document.createElement("header");
+document.createElement("footer");
+document.createElement("section");
+
+</script>
+
+</head>
+
+<body>
+
+<header class= " banner ">
+
+<h1> GameArena <img src="/../resources/vg.jpg" alt="vg" >  </h1>
+
+</header>
+
+
+<% include partials/Menu.ejs %>
+
+
+
+
+
+
+
+<h2> <br><br><br> Items Added in the cart  </h2>
+
+<table>
+
+  <tr>
+    <th><label> Item ID </label></th>
+    <td><label><strong> </strong><%= useritems.itemID %></label></td>
+  </tr>
+
+  <tr>
+    <th><label> Item Name </label></th>
+    <td><label><strong> </strong><%= useritems.itemName %></label></td>
+  </tr>
+
+  <tr>
+    <th><label> Category </label></th>
+    <td><label><strong> </strong><%= useritems.category %></label></td>
+  </tr>
+
+  <tr>
+    <th><label> Rating </label></th>
+    <td><label><strong> </strong><%= useritems.rating %></label></td>
+  </tr>
+
+  <tr>
+    <th><label> Image URL </label></th>
+    <td><label><strong> </strong><%= useritems.url %></label></td>
+  </tr>
+
+
+</table>
+
+
+<% include partials/Home.ejs %>
+
+<% include partials/footer.ejs %>
+
+
+</body>
+
+</html>

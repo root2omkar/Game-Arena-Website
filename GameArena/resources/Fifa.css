@@ -1,0 +1,29 @@
+ @charset "UTF-8";
+
+
+
+header, html, body, nav ,footer, p ,
+{
+	display:block;
+	padding:10px;
+	margin:5px;
+	left-side:5px;
+
+}
+
+
+li
+ {
+	 display:block;
+ }
+
+
+ body
+{
+	width:1460px;
+	background-color: gray;
+	font-family:Arial;
+	font-size: 15px;
+	margin-left:15px;
+	border:thick gold;
+}
