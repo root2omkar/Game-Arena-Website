@@ -6,7 +6,7 @@ Steps to Execute:
 
 Download any Java Script Code ediitor ( I used Atom editor )
 
-Copy and paste the all the files include nodemodules packages. 
+Copy and paste all the files include nodemodules packages. 
 
-Execute app.js file in atom.
+Execute app.js file in model folder.
 
