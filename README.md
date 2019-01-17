@@ -3,7 +3,7 @@ Game Arena Website
 
 Download any Java Script Code ediitor ( I used Atom editor )
 
-Copy the all the files
+Copy and paste the all the files include nodemodules packages. 
 
-Execute app.js file.
+Execute app.js file in atom.
 
